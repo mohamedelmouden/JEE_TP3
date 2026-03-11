@@ -23,8 +23,8 @@ Choix 1 — Par profil Spring (@Profile)
 ------
 Dans Presentation2.java, décommenter une seule ligne :
 
-- ctx.getEnvironment().setActiveProfiles("prod");  // DaoImpl  (100) → 200.0
-- // ctx.getEnvironment().setActiveProfiles("dev");    // DaoImpl2 (150) → 300.0
+- //ctx.getEnvironment().setActiveProfiles("prod");  // DaoImpl  (100) → 200.0
+-  ctx.getEnvironment().setActiveProfiles("dev");    // DaoImpl2 (150) → 300.0
 - // ctx.getEnvironment().setActiveProfiles("file");   // DaoFile  (180) → 360.0
 - // ctx.getEnvironment().setActiveProfiles("api");    // DaoApi   (220) → 440.0
 
@@ -33,7 +33,8 @@ ctx.refresh();
 
 ==> résultat :
 -----
-<img width="960" height="540" alt="test choix 1 decommenter un ligne et il donne toujours ka m resulta 200" src="https://github.com/user-attachments/assets/9b2b95a6-ff6a-45af-bbbb-174d5c65985a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f8190c32-5511-492e-b4df-b84a3cf40495" />
+
 
 
 Choix 2 — Par propriété externe (app.properties)
