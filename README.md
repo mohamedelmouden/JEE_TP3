@@ -41,19 +41,19 @@ Choix 2 — Par propriété externe (app.properties)
 -----
 Dans app.properties, changer la valeur :
 
-pour avoir 200.0
+- pour avoir 200.0
 
 dao.target=dao.DaoImpl
 
-pour avoir 300.0
+- pour avoir 300.0
 
 dao.target=dao.DaoImpl2
 
-pour avoir 360.0
+- pour avoir 360.0
 
 dao.target=dao.DaoFile
 
-pour avoir 440.0
+- pour avoir 440.0
 
 dao.target=dao.DaoApi
 
